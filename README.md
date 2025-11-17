@@ -14,9 +14,9 @@ Edvard Munch created four different versions of The Scream, each with unique pal
 My animation cycles through day → evening → night → dawn, echoing how Munch revisited the scene with different moods.
 <p align="center">
   <img src="assets/p1.jpg" width="350">
-  <img src="assets/p2.jpg" width="350"> 
+  <img src="assets/p4.jpg" width="350"> 
+  <img src="assets/p2.jpg" width="350">
   <img src="assets/p3.jpg" width="350">
-  <img src="assets/p4.jpg" width="350">
 </p>
 
 ### Impressionist Light & Color  
@@ -43,7 +43,7 @@ I replaced the static lines with dynamically wobbling circular rings surrounding
 
 [Wobbly Circles RGB](https://openprocessing.org/sketch/2388698)
 <p align="center">
-  <img src="assets/p5.jpg" width="350">
+  <img src="assets/p5.png" width="350">
 </p>
 
 ### Environmental Transitions
