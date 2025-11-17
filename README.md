@@ -12,6 +12,12 @@ While preserving the group’s visual foundation, I introduced a timeline system
 ### Munch’s Four Versions  
 Edvard Munch created four different versions of The Scream, each with unique palettes and emotional intensities. This inspired me to treat the artwork as something fluid.
 My animation cycles through day → evening → night → dawn, echoing how Munch revisited the scene with different moods.
+<p align="center">
+  <img src="assets/p1.jpg" width="350">
+  <img src="assets/p2.jpg" width="350"> 
+  <img src="assets/p3.jpg" width="350">
+  <img src="assets/p4.jpg" width="350">
+</p>
 
 ### Impressionist Light & Color  
 Like Monet’s studies of Rouen Cathedral, I wanted the background colors to respond to time itself.
@@ -36,6 +42,9 @@ I replaced the static lines with dynamically wobbling circular rings surrounding
 ·*Reference*: adapted from this OpenProcessing sketch
 
 [Wobbly Circles RGB](https://openprocessing.org/sketch/2388698)
+<p align="center">
+  <img src="assets/p5.jpg" width="350">
+</p>
 
 ### Environmental Transitions
 A global getTimeProgress() function drives a full 16-second day–night cycle:
