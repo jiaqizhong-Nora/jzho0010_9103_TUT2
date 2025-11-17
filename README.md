@@ -20,31 +20,47 @@ The sky and water shift between warm daylight tones and deep nocturnal hues, ref
 ### The “Nighttime Effect”
 Research shows that feelings of anxiety and sadness intensify at night due to reduced sensory distractions and increased introspection (e.g., studies from Journal of Affective Disorders, 2017).
 This concept shaped the animation logic:
+
 ·*Day*: Scream rings smaller and calmer
+
 ·*Night*: Rings expand, distort, and “overflow”
 
 ## Animation Design & Features  
 ### The “Scream Rings”
 I replaced the static lines with dynamically wobbling circular rings surrounding the figure’s head.
+
 ·*Concept*: a “breathing” emotional halo
+
 ·*Technique*: Perlin noise distortion + lerpColor transitions
+
 ·*Reference*: adapted from this OpenProcessing sketch
+
 [Wobbly Circles RGB](https://openprocessing.org/sketch/2388698)
 
 ### Environmental Transitions
 A global getTimeProgress() function drives a full 16-second day–night cycle:
+
 ·*Sky*: orange → deep blue
+
 ·*Water*: brighter cyan → muted ink-green
+
 ·*Bridge*: whites dim into grey
+
 ·*Character*: skin tone darkens at night
 
 ### Changes from Group Code  
 The original group structure remains. My additions include:
+
 ·Added day–night cycle function
+
 ·Applied color interpolation for sky, water, bridge, and character
+
 ·Added drawWobblyRing() for noise-based scream rings
+
 
 ### Technical Info  
 Interaction: none — animation loops automatically
+
 Cycle: 0–8s (day→night), 8–16s (night→day)
+
 Tools: p5.js, Perlin noise, sin/cos geometry, lerp/lerpColor
