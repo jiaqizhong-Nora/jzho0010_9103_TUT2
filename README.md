@@ -8,6 +8,7 @@ For my individual extension, I chose the Time-Based animation method.
 My idea was to reinterpret The Scream not as a static moment, but as an emotional cycle flowing through an entire day. The environment shifts from day to night, and the “scream” grows more intense as darkness deepens.
 While preserving the group’s visual foundation, I introduced a timeline system where color, light, and distortion evolve to reflect different emotional states across time.
 
+
 ## Inspiration
 ### Munch’s Four Versions  
 Edvard Munch created four different versions of The Scream, each with unique palettes and emotional intensities. This inspired me to treat the artwork as something fluid.
@@ -30,6 +31,7 @@ This concept shaped the animation logic:
 **·Day:** Scream rings smaller and calmer
 
 **·Night:** Rings expand, distort, and “overflow”
+
 
 ## Animation Design & Features  
 ### The “Scream Rings”
@@ -57,7 +59,7 @@ A global getTimeProgress() function drives a full 16-second day–night cycle:
 
 **·Character:** skin tone darkens at night
 
-### Changes from Group Code  
+## Changes from Group Code  
 The original group structure remains. My additions include:
 
 **·**Added day–night cycle function
@@ -67,7 +69,7 @@ The original group structure remains. My additions include:
 **·**Added drawWobblyRing() for noise-based scream rings
 
 
-### Technical Info  
+## Technical Info  
 **Interaction:** none — animation loops automatically
 
 **Cycle:** 0–8s (day→night), 8–16s (night→day)
